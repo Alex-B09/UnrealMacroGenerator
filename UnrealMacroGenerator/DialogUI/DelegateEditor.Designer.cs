@@ -72,11 +72,12 @@
             // Cb_IsMulticast
             // 
             this.Cb_IsMulticast.AutoSize = true;
+            this.Cb_IsMulticast.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cb_IsMulticast.ForeColor = System.Drawing.Color.White;
             this.Cb_IsMulticast.Location = new System.Drawing.Point(107, 41);
             this.Cb_IsMulticast.Name = "Cb_IsMulticast";
             this.Cb_IsMulticast.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Cb_IsMulticast.Size = new System.Drawing.Size(111, 20);
+            this.Cb_IsMulticast.Size = new System.Drawing.Size(114, 22);
             this.Cb_IsMulticast.TabIndex = 7;
             this.Cb_IsMulticast.Text = "MULTICAST";
             this.Cb_IsMulticast.UseVisualStyleBackColor = true;
@@ -85,10 +86,11 @@
             // Cb_IsDynamic
             // 
             this.Cb_IsDynamic.AutoSize = true;
+            this.Cb_IsDynamic.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cb_IsDynamic.ForeColor = System.Drawing.Color.White;
             this.Cb_IsDynamic.Location = new System.Drawing.Point(107, 15);
             this.Cb_IsDynamic.Name = "Cb_IsDynamic";
-            this.Cb_IsDynamic.Size = new System.Drawing.Size(93, 20);
+            this.Cb_IsDynamic.Size = new System.Drawing.Size(98, 22);
             this.Cb_IsDynamic.TabIndex = 6;
             this.Cb_IsDynamic.Text = "DYNAMIC";
             this.Cb_IsDynamic.UseVisualStyleBackColor = true;
@@ -97,11 +99,12 @@
             // Cb_HasRetVal
             // 
             this.Cb_HasRetVal.AutoSize = true;
+            this.Cb_HasRetVal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cb_HasRetVal.ForeColor = System.Drawing.Color.White;
             this.Cb_HasRetVal.Location = new System.Drawing.Point(20, 41);
             this.Cb_HasRetVal.Name = "Cb_HasRetVal";
             this.Cb_HasRetVal.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Cb_HasRetVal.Size = new System.Drawing.Size(72, 20);
+            this.Cb_HasRetVal.Size = new System.Drawing.Size(73, 22);
             this.Cb_HasRetVal.TabIndex = 5;
             this.Cb_HasRetVal.Text = "RetVal";
             this.Cb_HasRetVal.UseVisualStyleBackColor = true;
@@ -110,10 +113,11 @@
             // Cb_IsEvent
             // 
             this.Cb_IsEvent.AutoSize = true;
+            this.Cb_IsEvent.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cb_IsEvent.ForeColor = System.Drawing.Color.White;
             this.Cb_IsEvent.Location = new System.Drawing.Point(20, 15);
             this.Cb_IsEvent.Name = "Cb_IsEvent";
-            this.Cb_IsEvent.Size = new System.Drawing.Size(74, 20);
+            this.Cb_IsEvent.Size = new System.Drawing.Size(80, 22);
             this.Cb_IsEvent.TabIndex = 4;
             this.Cb_IsEvent.Text = "EVENT";
             this.Cb_IsEvent.UseVisualStyleBackColor = true;
@@ -122,22 +126,24 @@
             // Lbl_Name
             // 
             this.Lbl_Name.AutoSize = true;
+            this.Lbl_Name.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Name.ForeColor = System.Drawing.Color.White;
             this.Lbl_Name.Location = new System.Drawing.Point(17, 76);
             this.Lbl_Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Name.Name = "Lbl_Name";
-            this.Lbl_Name.Size = new System.Drawing.Size(109, 16);
+            this.Lbl_Name.Size = new System.Drawing.Size(118, 18);
             this.Lbl_Name.TabIndex = 3;
             this.Lbl_Name.Text = "Delegate Name";
             // 
             // Lbl_Type
             // 
             this.Lbl_Type.AutoSize = true;
+            this.Lbl_Type.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Type.ForeColor = System.Drawing.Color.White;
             this.Lbl_Type.Location = new System.Drawing.Point(17, 135);
             this.Lbl_Type.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Type.Name = "Lbl_Type";
-            this.Lbl_Type.Size = new System.Drawing.Size(93, 16);
+            this.Lbl_Type.Size = new System.Drawing.Size(97, 18);
             this.Lbl_Type.TabIndex = 2;
             this.Lbl_Type.Text = "Owning Type";
             this.Lbl_Type.Visible = false;
@@ -163,7 +169,7 @@
             // 
             this.Flp_Document.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.Flp_Document.Controls.Add(this.Llbl_Document);
-            this.Flp_Document.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Flp_Document.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Flp_Document.ForeColor = System.Drawing.Color.White;
             this.Flp_Document.Location = new System.Drawing.Point(12, 225);
             this.Flp_Document.Name = "Flp_Document";
@@ -175,12 +181,12 @@
             this.Llbl_Document.AutoSize = true;
             this.Llbl_Document.DisabledLinkColor = System.Drawing.Color.White;
             this.Llbl_Document.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Llbl_Document.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Llbl_Document.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Llbl_Document.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.Llbl_Document.Location = new System.Drawing.Point(3, 3);
             this.Llbl_Document.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.Llbl_Document.Name = "Llbl_Document";
-            this.Llbl_Document.Size = new System.Drawing.Size(197, 16);
+            this.Llbl_Document.Size = new System.Drawing.Size(183, 18);
             this.Llbl_Document.TabIndex = 0;
             this.Llbl_Document.TabStop = true;
             this.Llbl_Document.Text = "Open delegate document";
@@ -191,7 +197,7 @@
             this.Btn_Cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.Btn_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Btn_Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Btn_Cancel.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Btn_Cancel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Cancel.ForeColor = System.Drawing.Color.White;
             this.Btn_Cancel.Location = new System.Drawing.Point(494, 228);
             this.Btn_Cancel.Name = "Btn_Cancel";
@@ -205,7 +211,7 @@
             this.Btn_OK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.Btn_OK.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.Btn_OK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Btn_OK.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Btn_OK.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_OK.ForeColor = System.Drawing.Color.White;
             this.Btn_OK.Location = new System.Drawing.Point(400, 228);
             this.Btn_OK.Name = "Btn_OK";
@@ -234,11 +240,12 @@
             // Lbl_Arguments
             // 
             this.Lbl_Arguments.AutoSize = true;
+            this.Lbl_Arguments.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Arguments.ForeColor = System.Drawing.Color.White;
             this.Lbl_Arguments.Location = new System.Drawing.Point(3, 3);
             this.Lbl_Arguments.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.Lbl_Arguments.Name = "Lbl_Arguments";
-            this.Lbl_Arguments.Size = new System.Drawing.Size(113, 16);
+            this.Lbl_Arguments.Size = new System.Drawing.Size(116, 18);
             this.Lbl_Arguments.TabIndex = 11;
             this.Lbl_Arguments.Text = "ArgumentsType";
             // 
@@ -273,7 +280,7 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.button2.Enabled = false;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(158, 3);
             this.button2.Name = "button2";
@@ -287,7 +294,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";

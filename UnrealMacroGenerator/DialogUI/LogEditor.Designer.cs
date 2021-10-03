@@ -52,7 +52,7 @@
             this.Btn_Cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.Btn_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Btn_Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Btn_Cancel.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Btn_Cancel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Cancel.ForeColor = System.Drawing.Color.White;
             this.Btn_Cancel.Location = new System.Drawing.Point(537, 345);
             this.Btn_Cancel.Name = "Btn_Cancel";
@@ -66,7 +66,7 @@
             this.Btn_OK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.Btn_OK.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.Btn_OK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Btn_OK.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Btn_OK.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_OK.ForeColor = System.Drawing.Color.White;
             this.Btn_OK.Location = new System.Drawing.Point(438, 345);
             this.Btn_OK.Name = "Btn_OK";
@@ -130,10 +130,11 @@
             // Lbl_Input
             // 
             this.Lbl_Input.AutoSize = true;
+            this.Lbl_Input.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Input.ForeColor = System.Drawing.Color.White;
             this.Lbl_Input.Location = new System.Drawing.Point(12, 138);
             this.Lbl_Input.Name = "Lbl_Input";
-            this.Lbl_Input.Size = new System.Drawing.Size(42, 16);
+            this.Lbl_Input.Size = new System.Drawing.Size(40, 18);
             this.Lbl_Input.TabIndex = 4;
             this.Lbl_Input.Text = "Input";
             // 
@@ -156,20 +157,22 @@
             // Lbl_Selecter2
             // 
             this.Lbl_Selecter2.AutoSize = true;
+            this.Lbl_Selecter2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Selecter2.ForeColor = System.Drawing.Color.White;
             this.Lbl_Selecter2.Location = new System.Drawing.Point(12, 73);
             this.Lbl_Selecter2.Name = "Lbl_Selecter2";
-            this.Lbl_Selecter2.Size = new System.Drawing.Size(73, 16);
+            this.Lbl_Selecter2.Size = new System.Drawing.Size(75, 18);
             this.Lbl_Selecter2.TabIndex = 1;
             this.Lbl_Selecter2.Text = "Selecter2";
             // 
             // Lbl_Selecter1
             // 
             this.Lbl_Selecter1.AutoSize = true;
+            this.Lbl_Selecter1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Selecter1.ForeColor = System.Drawing.Color.White;
             this.Lbl_Selecter1.Location = new System.Drawing.Point(12, 9);
             this.Lbl_Selecter1.Name = "Lbl_Selecter1";
-            this.Lbl_Selecter1.Size = new System.Drawing.Size(73, 16);
+            this.Lbl_Selecter1.Size = new System.Drawing.Size(75, 18);
             this.Lbl_Selecter1.TabIndex = 0;
             this.Lbl_Selecter1.Text = "Selecter1";
             // 
@@ -185,15 +188,15 @@
             this.Tlp_Arguments.Name = "Tlp_Arguments";
             this.Tlp_Arguments.RowCount = 1;
             this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 304F));
-            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 304F));
-            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 304F));
-            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 304F));
-            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 304F));
-            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 304F));
-            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 304F));
-            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 304F));
-            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 304F));
+            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 293F));
+            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 293F));
+            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 293F));
+            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 293F));
+            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 293F));
+            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 293F));
+            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 293F));
+            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 293F));
+            this.Tlp_Arguments.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 293F));
             this.Tlp_Arguments.Size = new System.Drawing.Size(304, 293);
             this.Tlp_Arguments.TabIndex = 10;
             // 
@@ -216,11 +219,12 @@
             // Lbl_Arguments
             // 
             this.Lbl_Arguments.AutoSize = true;
+            this.Lbl_Arguments.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Arguments.ForeColor = System.Drawing.Color.White;
             this.Lbl_Arguments.Location = new System.Drawing.Point(3, 3);
             this.Lbl_Arguments.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.Lbl_Arguments.Name = "Lbl_Arguments";
-            this.Lbl_Arguments.Size = new System.Drawing.Size(80, 16);
+            this.Lbl_Arguments.Size = new System.Drawing.Size(83, 18);
             this.Lbl_Arguments.TabIndex = 11;
             this.Lbl_Arguments.Text = "Arguments";
             // 

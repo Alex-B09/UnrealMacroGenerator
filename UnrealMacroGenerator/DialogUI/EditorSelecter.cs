@@ -40,5 +40,14 @@ namespace UnrealMacroGenerator.DialogUI
         {
             MacroType = Lb_Selecter.SelectedItem.ToString();
         }
+
+        private void Lb_Selecter_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                DialogResult = DialogResult.OK;
+                this.Close();
+            }
+        }
     }
 }

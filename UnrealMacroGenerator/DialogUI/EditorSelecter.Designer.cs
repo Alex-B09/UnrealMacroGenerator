@@ -38,12 +38,12 @@
             this.Btn_OK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.Btn_OK.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.Btn_OK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Btn_OK.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Btn_OK.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_OK.ForeColor = System.Drawing.Color.White;
-            this.Btn_OK.Location = new System.Drawing.Point(12, 220);
+            this.Btn_OK.Location = new System.Drawing.Point(12, 238);
             this.Btn_OK.Name = "Btn_OK";
-            this.Btn_OK.Size = new System.Drawing.Size(75, 23);
-            this.Btn_OK.TabIndex = 0;
+            this.Btn_OK.Size = new System.Drawing.Size(75, 25);
+            this.Btn_OK.TabIndex = 1;
             this.Btn_OK.Text = "OK";
             this.Btn_OK.UseVisualStyleBackColor = false;
             // 
@@ -52,12 +52,12 @@
             this.Btn_Cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.Btn_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Btn_Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Btn_Cancel.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Btn_Cancel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Cancel.ForeColor = System.Drawing.Color.White;
-            this.Btn_Cancel.Location = new System.Drawing.Point(137, 220);
+            this.Btn_Cancel.Location = new System.Drawing.Point(137, 238);
             this.Btn_Cancel.Name = "Btn_Cancel";
-            this.Btn_Cancel.Size = new System.Drawing.Size(75, 23);
-            this.Btn_Cancel.TabIndex = 1;
+            this.Btn_Cancel.Size = new System.Drawing.Size(75, 25);
+            this.Btn_Cancel.TabIndex = 2;
             this.Btn_Cancel.Text = "Cancel";
             this.Btn_Cancel.UseVisualStyleBackColor = false;
             // 
@@ -65,23 +65,24 @@
             // 
             this.Lb_Selecter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.Lb_Selecter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Lb_Selecter.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Lb_Selecter.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_Selecter.ForeColor = System.Drawing.Color.White;
             this.Lb_Selecter.FormattingEnabled = true;
             this.Lb_Selecter.HorizontalScrollbar = true;
-            this.Lb_Selecter.ItemHeight = 20;
-            this.Lb_Selecter.Location = new System.Drawing.Point(12, 12);
+            this.Lb_Selecter.ItemHeight = 23;
+            this.Lb_Selecter.Location = new System.Drawing.Point(12, 13);
             this.Lb_Selecter.Name = "Lb_Selecter";
-            this.Lb_Selecter.Size = new System.Drawing.Size(200, 202);
-            this.Lb_Selecter.TabIndex = 2;
+            this.Lb_Selecter.Size = new System.Drawing.Size(200, 209);
+            this.Lb_Selecter.TabIndex = 0;
             this.Lb_Selecter.SelectedIndexChanged += new System.EventHandler(this.OnSelectedIndexChanged);
+            this.Lb_Selecter.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Lb_Selecter_KeyUp);
             // 
             // EditorSelecter
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.ClientSize = new System.Drawing.Size(228, 253);
+            this.ClientSize = new System.Drawing.Size(228, 274);
             this.ControlBox = false;
             this.Controls.Add(this.Lb_Selecter);
             this.Controls.Add(this.Btn_Cancel);

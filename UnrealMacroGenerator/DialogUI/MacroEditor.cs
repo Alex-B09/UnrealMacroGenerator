@@ -117,6 +117,8 @@ namespace UnrealMacroGenerator.DialogUI
                 Input.ScrollBars = ScrollBars.Horizontal;
                 Input.BorderStyle = BorderStyle.FixedSingle;
 
+                Input.KeyUp += MacroEditor_KeyUp;
+
                 Tlp_AdvancedSettings.RowCount++;
                 Tlp_AdvancedSettings.RowStyles.Add(new RowStyle(SizeType.Absolute, 25F));
                 Tlp_AdvancedSettings.Controls.Add(Title);
@@ -153,6 +155,7 @@ namespace UnrealMacroGenerator.DialogUI
                     CheckBox Input = new CheckBox();
                     Input.Tag = InputType.NoInput;
                     Input.ForeColor = SettingsFunctionLibrary.GetTextColor();
+                    Input.KeyUp += MacroEditor_KeyUp;
                     Name.Tag = Input;
                     Name.Click += new EventHandler(OnCheckBoxLabelClicked);
                     Tlp_MetaSpecifiers.Controls.Add(Input);
@@ -164,6 +167,7 @@ namespace UnrealMacroGenerator.DialogUI
                     Input.Tag = InputType.String;
                     Input.ScrollBars = ScrollBars.Horizontal;
                     Input.BorderStyle = BorderStyle.FixedSingle;
+                    Input.KeyUp += MacroEditor_KeyUp;
                     Tlp_MetaSpecifiers.Controls.Add(Input);
                     CachedMetaSpecifiersUI.Add(MetaSpecifier.Data, Input);
                 }
@@ -172,6 +176,7 @@ namespace UnrealMacroGenerator.DialogUI
                     CheckBox Input = new CheckBox();
                     Input.Tag = InputType.Bool;
                     Input.ForeColor = SettingsFunctionLibrary.GetTextColor();
+                    Input.KeyUp += MacroEditor_KeyUp;
                     Name.Tag = Input;
                     Name.Click += new EventHandler(OnCheckBoxLabelClicked);
                     Tlp_MetaSpecifiers.Controls.Add(Input);
@@ -183,6 +188,7 @@ namespace UnrealMacroGenerator.DialogUI
                     Input.Tag = InputType.Int;
                     Input.BorderStyle = BorderStyle.FixedSingle;
                     Input.Text = string.Empty;
+                    Input.KeyUp += MacroEditor_KeyUp;
                     Tlp_MetaSpecifiers.Controls.Add(Input);
                     CachedMetaSpecifiersUI.Add(MetaSpecifier.Data, Input);
                 }
@@ -194,6 +200,7 @@ namespace UnrealMacroGenerator.DialogUI
                     Input.DecimalPlaces = 2;
                     Input.Text = string.Empty;
                     Input.Increment = (decimal)0.5;
+                    Input.KeyUp += MacroEditor_KeyUp;
                     Tlp_MetaSpecifiers.Controls.Add(Input);
                     CachedMetaSpecifiersUI.Add(MetaSpecifier.Data, Input);
                 }
@@ -469,6 +476,26 @@ namespace UnrealMacroGenerator.DialogUI
             if (!string.IsNullOrEmpty(DocumentLink))
             {
                 System.Diagnostics.Process.Start(DocumentLink);
+            }
+        }
+
+        private void MacroEditor_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                OnOKButtonClicked(sender, null);
+                DialogResult = DialogResult.OK;
+                this.Close();
+            }
+        }
+
+        private void Cl_MacroSpecifiers_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                OnOKButtonClicked(sender, null);
+                DialogResult = DialogResult.OK;
+                this.Close();
             }
         }
     }
