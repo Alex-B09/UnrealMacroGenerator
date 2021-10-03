@@ -487,6 +487,11 @@ namespace UnrealMacroGenerator.DialogUI
                 DialogResult = DialogResult.OK;
                 this.Close();
             }
+            else if (e.KeyCode == Keys.Escape)
+            {
+                DialogResult = DialogResult.OK;
+                this.Close();
+            }
         }
 
         private void Cl_MacroSpecifiers_KeyUp(object sender, KeyEventArgs e)

@@ -48,6 +48,11 @@ namespace UnrealMacroGenerator.DialogUI
                 DialogResult = DialogResult.OK;
                 this.Close();
             }
+            else if (e.KeyCode == Keys.Escape)
+            {
+                DialogResult = DialogResult.Cancel;
+                this.Close();
+            }
         }
     }
 }
